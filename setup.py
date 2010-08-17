@@ -29,6 +29,7 @@ setup(
     classifiers = CLASSIFIERS,
     requires=[
         'django (>1.2.0)',
+        'simplejson',
     ],
     packages=find_packages(),
     zip_safe=False
